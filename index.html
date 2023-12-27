@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>h1 제목 </h1>
+    <h2>h2 제목 </h2>
+    <h3>h3 제목 </h3>
+    <h4>h4 제목 </h4>
+    <h5>h5 제목 </h5>
+    <h6>h6 제목 </h6>
+
+    <p>ㄱ</p>
+    <p>ㄴ</p>
+    <p>ㄷ</p>
+    <p>ㄹ</p>
+    <p>ㅁ</p>
+    <p>ㅂ</p>
+
+    가나다<br>
+    라마바<br>
+
+    ㄱ<br>
+    ㄴ<br>
+    ㄷ<br>
+
+    <hr>
+
+    가 &nbsp;&nbsp;&nbsp; 나<br>
+
+    <b>굵게</b><br>
+    <strong>굵게 강조</strong><br>
+    <i>기울어지게</i><br>
+    <em>기울어지게 강조</em><br>
+
+    1 <sup>st</sup><br>
+    H<sub>2</sub>O<br>
+
+    <u>u 태그</u><br>
+    <s>s 태그</s><br>
+    
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ul>
+    
+        </li>
+    </ul>
+    
+    <ol>
+        <li>1
+            <ul>
+                <li>가</li>
+                <li>나</li>
+                <li>다</li>
+                <li>라</li>
+            </ul>
+        </li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol><br>
+
+    <dl>
+        <dt>ㄱ</dt>
+        <dd>기역</dd>
+        <dt>ㄴ</dt>
+        <dd>니은</dd>
+        <dt>ㄷ</dt>
+        <dd>디귿</dd>
+    </dl><br>
+
+    <img src="https://showcases.yalco.kr/html-css/01-05/coding.png" alt="컴퓨터" title="프로그래밍"><br>
+
+    <table>
+        <caption>a to f</caption>
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>4단</caption>
+        <thead>
+            <tr>
+                <th>1번</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>2번</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>3번</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>4번</th>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>합계</th>
+                <td>4</td>
+                <td>8</td>
+                <td>12</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <a href='https://www.google.com'></a><br>
+
+    <form
+    action="./01-result.html"
+    method="get"
+  >
+
+    <label for="name">이름</label>
+    <input id="name" name="my-name" type="text">
+
+    <br><br>
+
+    <label for="age">나이</label>
+    <input id="age" name="my-age" type="number">
+
+    <br><br>
+
+    <button type="submit">제출</button>
+    <button type="reset">초기화</button>
+  </form>
+
+  <form>
+    <fieldset>
+      <legend>반장</legend>
+
+      <label for="name_1">이름</label>
+      <input id="name_1" name="name_1" type="text">
+      <br><br>
+
+      <label for="age_2">나이</label>
+      <input id="age_1" name="age_1" type="number">
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+      <legend>부반장</legend>
+
+      <label for="name_2">이름</label>
+      <input id="name_2" name="name_2" type="text">
+      <br><br>
+
+      <label for="age_2">나이</label>
+      <input id="age_2" name="age_2" type="number">
+
+    </fieldset>
+    <br>
+
+    <fieldset form="classForm" disabled>
+      <legend>서기</legend>
+
+      <label for="name_3">이름</label>
+      <input id="name_3" name="name_3" type="text">
+      <br><br>
+
+      <label for="age_3">나이</label>
+      <input id="age_3" name="age_3" type="number">
+    </fieldset>
+  </form>
+
+  <form action="#">
+    <label for="txtIp">text</label> <br>
+    <input 
+      id="txtIp"
+      type="text"
+      placeholder="5자 이하"
+      maxlength="5"
+    >
+    <br><br>
+
+    <label for="pwdIp">password</label> <br>
+    <input
+      id="pwdIp"
+      type="password"
+      placeholder="4자 이상"
+      minlength="4"
+    >
+    <br><br>
+
+    <label for="srchIp">search</label> <br>
+    <input id="srchIp" type="search">
+    <br><br>
+
+    <label for="tlIp">tel</label> <br>
+    <input id="tlIp" type="tel">
+    <br><br>
+    <button type="submit">제출</button>
+  </form>
+
+  <form action="#">
+    <label for="numIp">number</label> <br>
+    <input 
+      id="numIp"
+      type="number"
+      min="0"
+      max="10"
+    >
+    <br><br>
+
+    <label for="rgIp">range</label> <br>
+    <input
+      id="rgIp"
+      type="range"
+      min="0"
+      max="100"
+      step="20"
+    >
+    <br><br>
+
+    <label for="dtIp">date</label> <br>
+    <input
+      id="dtIp"
+      type="date"
+      min="2020-01-01"
+      max="2030-12-31"
+    >
+    <br><br>
+  </form>
+
+  <form action="#">
+    <h2>checkbox</h2>
+    <input 
+      id="cbIp"
+      type="checkbox"
+      checked
+    >
+    <label for="cbIp">유기농</label> <br>
+
+    <h2>radio</h2>
+    <input
+      type="radio"
+      name="fruit"
+      id="f_apple"
+      value="apple"
+      checked
+    >
+    <label for="f_apple">사과</label>
+    <input
+      type="radio"
+      name="fruit"
+      id="f_grape"
+      value="grape"
+    >
+    <label for="f_grape">포도</label>
+    <input
+      type="radio"
+      name="fruit"
+      id="f_orange"
+      value="orange"
+    >
+    <label for="f_orange">오렌지</label>
+    <br>
+
+    <input
+      type="radio"
+      name="vege"
+      id="v_carrot"
+      value="carrot"
+      checked
+    >
+    <label for="v_carrot">당근</label>
+    <input
+      type="radio"
+      name="vege"
+      id="v_tomato"
+      value="tomato"
+    >
+    <label for="v_tomato">토마토</label>
+    <input
+      type="radio"
+      name="vege"
+      id="v_eggplant"
+      value="eggplant"
+    >
+    <label for="v_eggplant">가지</label>
+
+  </form>
+
+
+    </body>
+</html>
